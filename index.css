@@ -17,7 +17,7 @@ header {
 
 #header-logo {
   padding: 5px;
-  margin-left: 60px;
+  margin-left: 150px;
   font-size: 24px;
   color: #f9faf8;
 }
@@ -25,6 +25,7 @@ header {
 .header-links {
   display: flex;
   align-items: center;
+  margin-right: 120px;
 }
 
 .header-links > div {
@@ -38,6 +39,7 @@ header {
 
 .left-column-text {
   flex: 1;
+  margin-left: 100px;
 }
 
 .left-column-text > h1 {
@@ -51,10 +53,21 @@ header {
   font-size: 18px;
 }
 
+button {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-weight: bold;
+}
+
 #image-placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1;
   background-color: grey;
+  margin-right: 100px;
 }
