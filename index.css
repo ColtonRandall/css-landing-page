@@ -10,6 +10,10 @@ body {
   color: aliceblue;
 }
 
+p {
+  color: black;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -70,4 +74,34 @@ button {
   flex: 1;
   background-color: grey;
   margin-right: 100px;
+}
+
+#random-info {
+  color: black;
+  padding-top: 30px;
+}
+
+#random-info-section {
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.box-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 30px;
+  gap: 30px;
+}
+
+.inner-box-section {
+  width: 100px;
+  color: #e5e7eb;
+  font-size: 12px;
+}
+
+.boxes {
+  padding: 50px;
+  border: 2px solid #3882f6;
+  border-radius: 15px;
 }
